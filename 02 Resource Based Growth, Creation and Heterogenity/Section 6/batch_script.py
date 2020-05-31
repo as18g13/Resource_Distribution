@@ -25,4 +25,4 @@ for i in np.arange(62,65,1):
         f.write('Initial_resource_per_agent ={}'.format(Initial_resource_per_agent))
     f.close()
     print (Resource_added_per_timestep,cost_to_add_cell,Optimum_resource,Initial_resource_per_agent)
-    os.system('python Section_8_Growth_Creation_Model.py')
+    os.system('python Section_6_Growth_Creation_Model.py')
